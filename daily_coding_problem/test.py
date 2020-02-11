@@ -16,9 +16,9 @@ def test_module(module):
     try:
       assert actual == expected, '{} shoud equal {}'.format(actual, expected)
       print('Case {} passed'.format(idx))
-    except AssertionError:
+    except AssertionError as e:
       print('Error running testcase {}: {}'.format(idx, case))
-      raise
+      print(e)
   print('Done')
   print('----------------------------')
 
