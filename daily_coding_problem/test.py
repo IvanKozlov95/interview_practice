@@ -1,7 +1,7 @@
 _299 = __import__('299.solution')
-_300 = __import__('300.solution')
+_305 = __import__('305.solution')
 
-modules_to_test = [_299, _300]
+modules_to_test = [_299, _305]
 
 def test_module(module):
   solution = module.solution
@@ -16,9 +16,9 @@ def test_module(module):
     try:
       assert actual == expected, '{} shoud equal {}'.format(actual, expected)
       print('Case {} passed'.format(idx))
-    except AssertionError as e:
+    except AssertionError:
       print('Error running testcase {}: {}'.format(idx, case))
-      print(e)
+      raise
   print('Done')
   print('----------------------------')
 

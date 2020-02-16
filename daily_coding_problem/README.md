@@ -60,3 +60,13 @@ In the following setup, for example, we can remove all but the pipes from plant 
         }
 
 [Solution](https://github.com/ivankozlovcodes/interview_practice/blob/master/daily_coding_problem/299/solution.py)
+
+---
+
+### Problem 305
+
+Given a linked list, remove all consecutive nodes that sum to zero. Print out the remaining nodes.
+
+For example, suppose you are given the input `3 -> 4 -> -7 -> 5 -> -6 -> 6`. In this case, you should first remove `3 -> 4 -> -7`, then `-6 -> 6`, leaving only 5.
+
+[Solution](https://github.com/ivankozlovcodes/interview_practice/blob/master/daily_coding_problem/305/solution.py)
