@@ -70,3 +70,13 @@ Given a linked list, remove all consecutive nodes that sum to zero. Print out th
 For example, suppose you are given the input `3 -> 4 -> -7 -> 5 -> -6 -> 6`. In this case, you should first remove `3 -> 4 -> -7`, then `-6 -> 6`, leaving only 5.
 
 [Solution](https://github.com/ivankozlovcodes/interview_practice/blob/master/daily_coding_problem/305/solution.py)
+
+---
+
+### Problem 305
+
+Given an unsorted array, in which all elements are distinct, find a "peak" element in `O(log N)` time.
+
+An element is considered a peak if it is greater than both its left and right neighbors. It is guaranteed that the first and last elements are lower than all others.
+
+[Solution](https://github.com/ivankozlovcodes/interview_practice/blob/master/daily_coding_problem/311/solution.py)
