@@ -1,9 +1,10 @@
 _299 = __import__('299.solution')
 _305 = __import__('305.solution')
+_309 = __import__('309.solution')
 _310 = __import__('310.solution')
 _311 = __import__('311.solution')
 
-modules_to_test = [_299, _305, _310, _311]
+modules_to_test = [_299, _305, _309, _310, _311]
 
 def test_module(module):
   solution = module.solution
