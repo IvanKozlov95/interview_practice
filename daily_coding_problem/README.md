@@ -80,3 +80,11 @@ Given an unsorted array, in which all elements are distinct, find a "peak" eleme
 An element is considered a peak if it is greater than both its left and right neighbors. It is guaranteed that the first and last elements are lower than all others.
 
 [Solution](https://github.com/ivankozlovcodes/interview_practice/blob/master/daily_coding_problem/311/solution.py)
+
+---
+
+### Problem 310
+
+Write an algorithm that finds the total number of set bits in all integers between `1` and `N`.
+
+[Solution](https://github.com/ivankozlovcodes/interview_practice/blob/master/daily_coding_problem/310/solution.py)
