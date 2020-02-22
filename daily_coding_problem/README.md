@@ -100,3 +100,20 @@ Given an input such as the one above, return the lowest possible cost of moving 
 Write an algorithm that finds the total number of set bits in all integers between `1` and `N`.
 
 [Solution](https://github.com/ivankozlovcodes/interview_practice/blob/master/daily_coding_problem/310/solution.py)
+
+---
+
+### Problem 315
+
+In linear algebra, a Toeplitz matrix is one in which the elements on any given diagonal from top left to bottom right are identical.
+
+Here is an example:
+```
+1 2 3 4 8
+5 1 2 3 4
+4 5 1 2 3
+7 4 5 1 2
+```
+Write a program to determine whether a given input is a Toeplitz matrix.
+
+[Solution](https://github.com/ivankozlovcodes/interview_practice/blob/master/daily_coding_problem/315/solution.py)
