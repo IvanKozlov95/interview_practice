@@ -106,6 +106,18 @@ The check method may return occasional false positives (in other words, incorrec
 
 [Solution](https://github.com/ivankozlovcodes/interview_practice/blob/master/daily_coding_problem/301/solution.py)
 
+___
+
+### Problem 303
+
+This problem was asked by Microsoft.
+
+Given a clock time in `hh:mm` format, determine, to the nearest degree, the angle between the hour and the minute hands.
+
+Bonus: When, during the course of a day, will the angle be zero?
+
+[Solution](https://github.com/ivankozlovcodes/interview_practice/blob/master/daily_coding_problem/303/solution.py)
+
 ---
 
 ### Problem 310
