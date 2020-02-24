@@ -95,6 +95,19 @@ Given an input such as the one above, return the lowest possible cost of moving 
 
 ---
 
+### Problem 301
+
+Implement a data structure which carries out the following operations without resizing the underlying array:
+
+    add(value): Add a value to the set of values.
+    check(value): Check whether a value is in the set.
+
+The check method may return occasional false positives (in other words, incorrectly identifying an element as part of the set), but should always correctly identify a true element.
+
+[Solution](https://github.com/ivankozlovcodes/interview_practice/blob/master/daily_coding_problem/301/solution.py)
+
+---
+
 ### Problem 310
 
 Write an algorithm that finds the total number of set bits in all integers between `1` and `N`.
